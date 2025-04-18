@@ -22,7 +22,7 @@
       <img src="./assets/images/printForReadme.png" alt="Imagem da pagina demonstrando como ela e" width="400px">
 </p>
 
-<h2 id="technologies">💻 Technologies</h2>
+<h2 id="tech">💻 Technologies</h2>
 
 - HTML5
 - CSS3
