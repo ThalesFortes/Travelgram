@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 :root{
@@ -18,9 +17,17 @@
   /* Text */
   --texto-color-primary:#313131;
   --text-color-scondary:#6C6C6C;
+
+  /* Font family */
+  --font-family:"Poppins", sans-serif;
+  --text-lg: bold 32px/125% var(--font-family);
+  --text: 16px/1.5 var(--font-family);;
+  --text-md: 14px/175% var(--font-family);;
+  --text-sm: 12px/175% var(--font-family);;
 }
 
 body{
+  font:var(--text);
   color: var(--text-color-scondary);
   background-color: var(--background-color);
 }
